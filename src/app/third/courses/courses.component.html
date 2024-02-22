@@ -1,0 +1,14 @@
+<div class="course">
+    <div class="courses" *ngFor="let obj of service.courses">
+        <h1>{{obj.name}}</h1>
+        <p>{{obj.id}}</p>
+        <p>{{obj.desc}}</p>
+        <h4>{{obj.price}}</h4>
+        <button (click)="goToBuy(obj.id)">Buy Now</button>
+    </div>
+</div>
+        
+        
+ 
+
+

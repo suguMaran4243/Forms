@@ -1,0 +1,11 @@
+
+.navigation-bar nav{
+    width:100vw;
+    background-color: pink;
+    font-size: 20px;
+    padding: 10px;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+}
